@@ -1,0 +1,47 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    font-family: Oswald,sans-serif;
+    background: whitesmoke;
+    height: 88vh;
+    overflow: hidden;
+}
+.body_left img{
+    width: 22em;
+    border-radius: 0.5em;
+    box-shadow:0.2em 0.2em 0.5em #BC74E1;
+}
+.body_right h1{
+    color: #8221D0;
+}
+.body_right p{
+    text-align: justify;
+    text-justify: inter-word;
+    color: #321B52;
+    letter-spacing: 2px;
+    font-family: Inter,sans-serif;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+
+}
+.body_right{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    place-content: center;
+    gap: 2em;
+}
+.body_right button{
+    font-family: Oswald,sans-serif;
+    font-size: 20px;
+    color: white;
+    background: #321B52;
+    border-radius: 0.5em;
+    width: 10em;
+}
+.body_right button:hover{
+    color: #321B52;
+    background: #BC74E1;
+    border: 0.1em solid #321B52;
+}

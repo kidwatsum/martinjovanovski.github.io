@@ -1,0 +1,46 @@
+.skills{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 2em;
+    place-items: center;
+    height: 90vh;
+    place-content: center;
+    padding: 0 1em;
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    place-items: center;
+    place-content: center;
+}
+
+.design,.frontend,.backend{
+    padding: 0.5em 0.5em;
+    text-align: center;
+    text-justify: inter-word;
+    border: 2px solid #321B52;
+    border-radius: 1em;
+}
+.design button,.frontend button,.backend button{
+    color: white;
+    background: #321B52;
+    width: 10em;
+    align-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+}
+.design button:hover,.frontend button:hover,.backend button:hover{
+    color: #321B52;
+    background-color: #BC74E1;
+    border: 2px solid #321B52;
+}
+h3{
+    color: #321B52;
+}
+p{
+    line-height: 1.7em;
+    letter-spacing: 0.1em;
+    text-align: justify;
+}
+
