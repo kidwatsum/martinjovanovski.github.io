@@ -1,14 +1,18 @@
 import React from "react";
+import "./SkillsDialog.css"
 
 
-export default function SkillsDialog({image,skill_name}){
+
+export default function SkillsDialog({image,skill_name,percentage}){
+
 
 
 
     return(
         <div className="skill">
-           <img src={image} alt="skill_pic"/>
-            <h5>{skill_name}</h5>
+           <h5>{skill_name}</h5>
+            < img src={image} alt="skill"/>
+            <h5>{percentage}</h5>
         </div>
     )
 }

@@ -5,6 +5,7 @@ import {Route,Routes} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/skills" element={<Skills/>}/>
-            <Route path="/projects" element={{/*Projects*/}}/>
+            <Route path="/projects" element={<Projects/>}/>
             <Route path="/contact" element={{/*Contact*/}}/>
         </Routes>
         </>

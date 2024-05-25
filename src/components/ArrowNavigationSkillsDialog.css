@@ -1,0 +1,9 @@
+.nav_skills{
+    display: flex;
+    gap:2em;
+    justify-content: center;
+}
+.backend_1,.backend_2,.frontend_1,.frontend_2{
+    display: flex;
+    gap: 1em;
+}

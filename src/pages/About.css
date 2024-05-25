@@ -6,6 +6,7 @@
     background: whitesmoke;
     height: 88vh;
     overflow: hidden;
+    padding: 0 2em;
 }
 .body_left img{
     width: 22em;
