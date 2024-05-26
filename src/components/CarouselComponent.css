@@ -1,0 +1,54 @@
+.carousel-container{
+    display: flex;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+.carousel{
+    display: flex;
+    gap: 1em;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+.card{
+    /*flex: 1 0 33.3333%;*/
+    flex: 1 0 1;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+    border-right: 1px solid #ddd;
+}
+.card:last-child{
+    /*border-right: none;*/
+}
+
+button.prev,button.next{
+    /*position: absolute;*/
+    top: 50%;
+    transform: translateY(-50%);
+    /*background-color: rgba(0,0,0,0.5);*/
+    background-color: #321B52;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30%;
+    z-index: 1;
+}
+button.prev:hover,button.next:hover{
+    background-color:#8221D0;
+    color: #321B52;
+}
+a{
+    text-decoration: none;
+}

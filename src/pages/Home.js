@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 import "./Home.css";
 import {Button} from "@mui/material";
 
